@@ -1,0 +1,95 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+/* open-sans-regular - cyrillic_latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/open-sans-v40-cyrillic_latin-regular.woff2")
+    format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* open-sans-700 - cyrillic_latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/open-sans-v40-cyrillic_latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+body {
+  font-family: "Open Sans";
+  margin: 0;
+}
+/* preparation of architecture */
+
+.container {
+  width: 100%;
+  max-width: 1330px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.social-icons-wrapper {
+  display: flex;
+  justify-content: end;
+}
+
+.social-icons__icon {
+  width: 32px;
+  height: 32px;
+}
+
+.link-list__title {
+  font-weight: 700;
+  color: red;
+}
+
+.free-one {
+  font-size: 24px;
+}
+
+.free-two {
+  font-size: 24px;
+}
+
+.free-three {
+  font-size: 24px;
+}
+
+.free-four {
+  font-size: 24px;
+}
+
+.free-five {
+  font-size: 24px;
+}
+
+.free-six {
+  font-size: 24px;
+}
+
+.free-seven {
+  font-size: 24px;
+}
+
+.free-eight {
+  font-size: 24px;
+}
+
+.free-nine {
+  font-size: 24px;
+}
+
+.free-ten {
+  font-size: 24px;
+}
