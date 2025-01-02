@@ -54,42 +54,15 @@ body {
   color: red;
 }
 
-.free-one {
-  font-size: 24px;
-}
-
-.free-two {
-  font-size: 24px;
-}
-
-.free-three {
-  font-size: 24px;
-}
-
-.free-four {
-  font-size: 24px;
-}
-
-.free-five {
-  font-size: 24px;
-}
-
-.free-six {
-  font-size: 24px;
-}
-
-.free-seven {
-  font-size: 24px;
-}
-
-.free-eight {
-  font-size: 24px;
-}
-
-.free-nine {
-  font-size: 24px;
-}
-
+.free-one,
+.free-two,
+.free-three,
+.free-four,
+.free-five,
+.free-six,
+.free-seven,
+.free-eight,
+.free-nine,
 .free-ten {
   font-size: 24px;
 }
