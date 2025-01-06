@@ -1,5 +1,18 @@
 "use strict";
 
+function fuck() {
+  const fucking = document.querySelector("h1");
+  if (document.querySelector("h1").innerHTML === "СсылкоМания") {
+    document.querySelector("h1").innerHTML = "Мания";
+  } else {
+    document.querySelector("h1").innerHTML = "СсылкоМания";
+  }
+}
+
+document.addEventListener("DOMContentLoaded", () => {
+  document.querySelector(".main").onclick = fuck;
+});
+
 // <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png"
 //   <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
 //   <link rel="icon" type="image/png" sizes="48x48" href="favicon-48x48.png" />
