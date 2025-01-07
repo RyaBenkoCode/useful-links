@@ -88,6 +88,8 @@ body {
 }
 
 .header {
+  /* position: fixed;
+  top: 0; */
   background-color: #e8ebf1;
   /* background: linear-gradient(23deg, #970c0c, #2bff00); */
 }
@@ -206,7 +208,13 @@ h1.main__title::before {
   width: 32px;
   height: 32px;
 }
-
+/* ------------ */
+.grid {
+  background-color: #f0f0f0;
+}
+.caniuse {
+  background-color: #f9f9f9;
+}
 .bybit {
   background-color: #f3f1f1;
 }
