@@ -209,6 +209,9 @@ h1.main__title::before {
   height: 32px;
 }
 /* ------------ */
+.flex {
+  background-color: #f1f1f1;
+}
 .grid {
   background-color: #f0f0f0;
 }
