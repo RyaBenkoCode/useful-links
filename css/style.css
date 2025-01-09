@@ -40,23 +40,33 @@ ul {
   gap: 50px;
 }
 
-/* li {
-  display: inline-block;
-} */
-
 body {
   font-family: "Open Sans", sans-serif;
   margin: 0;
-  /* background-color: #2c2c2c; */
   background-color: #1a1a2e;
 }
-/* preparation of architecture */
 
 .container {
   width: 100%;
   max-width: 1230px;
   margin: 0 auto;
   padding: 0 15px;
+}
+
+.common-styles {
+  font-size: 18px;
+  line-height: 1.5;
+  border: 2px solid #006400;
+  border-radius: 15px;
+  background-color: #add8e6;
+  padding: 10px;
+  box-shadow: inset 0 0 15px rgba(0, 0, 0, 0.5);
+  transition: all 0.3s ease;
+}
+
+.common-styles:hover {
+  background-color: #87ceeb;
+  box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.7);
 }
 
 /* 
@@ -79,19 +89,16 @@ body {
 } */
 
 /* на гридах */
-.page {
+/* .page {
   display: grid;
   grid-template-areas: "header" "content" "footer";
   grid-template-rows: auto 1fr auto;
   min-height: 100vh;
   overflow: hidden;
-}
+} */
 
 .header {
-  /* position: fixed;
-  top: 0; */
   background-color: #e8ebf1;
-  /* background: linear-gradient(23deg, #970c0c, #2bff00); */
 }
 
 .header__inner {
@@ -193,7 +200,13 @@ h1.main__title::before {
   }
 }
 
-/* ------------------------------ */
+/* main__title  */
+.main__title {
+  font-size: 24px;
+  text-align: center;
+  color: #006400;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
 
 .main__list {
   display: inline-block;
@@ -207,82 +220,6 @@ h1.main__title::before {
 .social-icons__icon {
   width: 32px;
   height: 32px;
-}
-/* ------------ */
-.flex {
-  background-color: #f1f1f1;
-}
-.grid {
-  background-color: #f0f0f0;
-}
-.caniuse {
-  background-color: #f9f9f9;
-}
-.bybit {
-  background-color: #f3f1f1;
-}
-.design {
-  background-color: #bbb1ac;
-}
-.color {
-  background-color: #e8ebf1;
-}
-.gradient {
-  background-color: #f4f2f2;
-}
-.icons {
-  background-color: #f1f1f1;
-}
-.fonts {
-  background-color: #f2f2f2;
-}
-.favicon {
-  background-color: #f5f3f3;
-}
-.block {
-  background-color: #f6f4f4;
-}
-.git {
-  background-color: #f7f5f5;
-}
-.react {
-  background-color: #f8f6f6;
-}
-.generator {
-  background-color: #f9f7f7;
-}
-.webp {
-  background-color: #f9f8f8;
-}
-.validation {
-  background-color: #f0f0f0;
-}
-.bem {
-  background-color: #f9f9f9;
-}
-.reset-norm {
-  background-color: #f8f8f8;
-}
-.translate {
-  background-color: #f1f1f1;
-}
-.links-ai {
-  background-color: #f2f2f2;
-}
-.law {
-  background-color: #f9d9f9;
-}
-.bgc {
-  background-color: #f3f3f3;
-}
-.lessons {
-  background-color: #f7f7f7;
-}
-.needles {
-  background-color: #2aaaaa;
-}
-.tabletka {
-  background-color: #e8ebf1;
 }
 
 .footer {
