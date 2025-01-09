@@ -212,6 +212,34 @@ h1.main__title::before {
   display: inline-block;
 }
 
+/* links animation */
+.main__link {
+  color: #006400;
+  position: relative;
+  overflow: hidden;
+}
+
+.main__link::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 0.5),
+    transparent
+  );
+  transition: left 0.5s ease;
+}
+
+.main__link:hover::before {
+  left: 100%;
+}
+
+/* social */
 .social-icons-wrapper {
   display: flex;
   justify-content: end;
@@ -260,3 +288,80 @@ h1.main__title::before {
 .footer__social-link:hover .footer__social-icon {
   transform: scale(1.1);
 }
+
+/* 
+как сделать интересный интерактив для текста ссылок в блоке
+Чтобы сделать текст ссылок в блоке более интересным и интерактивным, можно использовать различные эффекты и анимации. Вот несколько идей:
+
+Изменение цвета при наведении:
+
+css
+.link {
+    color: #006400;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.link:hover {
+    color: #1e90ff;
+}
+Подчеркивание при наведении:
+
+css
+.link {
+    color: #006400;
+    text-decoration: none;
+    position: relative;
+}
+
+.link::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #1e90ff;
+    transition: width 0.3s ease;
+}
+
+.link:hover::after {
+    width: 100%;
+}
+Анимация при наведении:
+
+css
+.link {
+    color: #006400;
+    text-decoration: none;
+    position: relative;
+    overflow: hidden;
+}
+
+.link::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.5), transparent);
+    transition: left 0.5s ease;
+}
+
+.link:hover::before {
+    left: 100%;
+}
+Тень при наведении:
+
+css
+.link {
+    color: #006400;
+    text-decoration: none;
+    transition: text-shadow 0.3s ease;
+}
+
+.link:hover {
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+*/
