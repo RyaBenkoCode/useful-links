@@ -132,7 +132,8 @@ body {
 }
 
 .header__logo-text {
-  color: #000;
+  /* color: #6f1a8a; */
+  color: #1a8a6f;
   font-weight: 700;
 }
 
@@ -141,6 +142,7 @@ body {
   font-weight: 700;
   font-size: 13px;
   line-height: 20px;
+  color: #1a8a6f;
   text-transform: uppercase;
 }
 
